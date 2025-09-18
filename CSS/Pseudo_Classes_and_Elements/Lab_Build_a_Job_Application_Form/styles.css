@@ -1,0 +1,82 @@
+input:focus, textarea:focus{
+    border-color: midnightblue;
+}
+
+input:invalid,select:invalid,textarea:invalid,fieldset:invalid{
+    border-color: red;
+}
+
+input:valid,select:valid,textarea:valid{
+    border-color: green;
+}
+
+button:hover{
+    background-color: aqua;
+}
+input{
+    display:inline-block;
+}
+label{
+    display: inline-block;
+}
+input:first-of-type{
+    border-radius: 10px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.radio-group{
+    margin-bottom: 15px;
+    display: flex;
+}
+
+
+.radio-group input[type="radio"]:checked {
+    border-color: blue;
+    background-color:midnightblue;
+    box-shadow: 0 3px 8px grey ;
+    color:coral;
+}
+
+.radio-group input[type="radio"]:checked + label {
+  color: blue;
+}
+#message{
+    width:590px;
+    height:50px;
+}
+
+.subit{
+    display: block;
+  margin : auto;
+  margin-top: 20px;
+  width: 600px;
+  height: 30px;
+}
+
+label{
+    display:block;
+    width:150px;
+    padding-top:15px;
+    padding-bottom: 5px;
+    
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+#name{
+    width:590px;
+}
+#email{
+    margin: auto;
+    padding:auto;
+    width:590px;
+}
