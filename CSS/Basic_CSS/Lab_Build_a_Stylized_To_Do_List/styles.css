@@ -1,0 +1,52 @@
+.todo{
+    width:300px;
+    background-color: white;
+    padding:20px;
+    margin-top: 100px;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    border-radius: 10px;
+}
+body{
+        background-color: rgb(201, 201, 201);
+    }
+li{
+    background-color: rgb(152, 236, 152);
+    padding-bottom: 15px;
+    margin-top: 10px;
+    padding-left:10px;
+    border-radius: 5px;
+    list-style:none;
+}
+ul{
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+    display: block;
+}
+
+.align{
+    text-align: center;
+}
+
+.sub-item-link{
+    text-decoration: none;
+}
+.sub-item-link:hover{
+    color:red;
+}
+.sub-item-link:active{
+    color:brown;
+}
+.sub-item-link:link{
+    color:purple;
+}
+.sub-item-link:visited{
+    color:yellow;
+}
+.sub-item-link:focus{
+    color:orange;
+}
