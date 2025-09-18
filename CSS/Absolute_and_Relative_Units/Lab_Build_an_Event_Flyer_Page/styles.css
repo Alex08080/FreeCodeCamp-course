@@ -1,0 +1,15 @@
+body{
+    background-color: grey;
+    text-align: center;
+    margin: 0 auto;
+    min-height: calc(100vh - 100px);
+}
+.prin{
+    background-color: white;
+    width:80%;
+    height:100%;
+    margin:0 auto;
+}
+hr,section{
+    width:100%;
+}
