@@ -1,0 +1,35 @@
+body{
+    background-color: #f4f4f4;
+}
+.color-box{
+    width:150px;
+    height:150px;
+    margin:20px 100px;
+    display:inline-block;
+    border-radius: 20px;
+}
+.color-grid{
+    text-align: center;
+
+}
+.color1{
+    background-color: #f345f3;
+}
+.color2{
+    background-color: rgb(45,3,89);
+}
+.color3{
+    background-color: goldenrod;
+}
+.color4{
+    background-color: hsl(100,50%,75%);
+}
+.color5{
+    background-color: indianred;
+
+}
+h1{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
