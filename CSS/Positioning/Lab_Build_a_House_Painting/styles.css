@@ -1,0 +1,65 @@
+#house{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin:auto;
+    background-color: rgb(219, 134, 198);
+    border:5px solid brown;
+    margin-top: 200px;
+}
+#roof, #chimney, #window-1, #window-2,#door{
+    position:absolute;
+}
+
+#roof{
+    width:100%;
+    height:15%;
+    background-color:brown;
+    border:5px dotted brown;
+    top:0;
+
+}
+#chimney{
+width:40px;
+    height:40px;
+    background-color:grey;
+    border:5px solid brown;
+    top:-40px;
+    z-index:-1;
+}
+#window-1{
+width: 40px;
+    height:40px;
+    background-color:beige;
+    border:5px solid brown;
+    right:40px;
+    bottom:180px;
+
+}
+#window-2{
+width: 40px;
+    height: 40px;
+    background-color:beige;
+    border:5px solid brown;
+    left:40px;
+    bottom:180px;
+
+}
+#door{
+width:70px;
+    height:150px;
+    background-color:grey;
+    border:5px solid brown;
+    bottom:0px;
+    left:50%;
+    right:50%;
+    
+}
+
+* {
+  box-sizing: border-box;
+}
