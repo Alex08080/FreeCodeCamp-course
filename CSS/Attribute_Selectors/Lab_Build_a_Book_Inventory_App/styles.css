@@ -1,0 +1,66 @@
+tr[class="read"]{
+    background-image:
+  linear-gradient(rgba(71, 71, 194, 0.5) 75%, rgb(255 255 0 / 0.5)),
+  url("/shared-assets/images/examples/lizard.png");
+}
+tr[class="to-read"]{
+    background-image:
+  linear-gradient(rgba(185, 20, 9, 0.5) 75%, rgb(255 255 0 / 0.5)),
+  url("/shared-assets/images/examples/lizard.png");
+}
+tr[class="in-progress"]{
+    background-image:
+  linear-gradient(rgba(190, 202, 16, 0.5), rgb(255 255 0 / 0.5)),
+  url("/shared-assets/images/examples/lizard.png");
+}
+span{
+    display: inline-block;
+
+}
+tr[class="to-read"] span[class="status"]{
+    background-image:linear-gradient(rgba(248, 34, 18, 0.5) 75%, rgb(255 255 0 / 0.5));
+    border:2px solid  rgb(124, 12, 12);
+    border-radius: 7px;
+}
+tr[class="read"] span[class="status"]{
+    
+    background-image:linear-gradient(rgba(12, 12, 247, 0.5) 75%, rgb(255 255 0 / 0.5));
+    border:2px solid rgb(9, 9, 145);
+    border-radius: 7px;
+}
+tr[class="in-progress"] span[class="status"]{
+    background-image:linear-gradient(rgba(239, 255, 18, 0.5), rgb(255 255 0 / 0.5));
+    border:2px solid rgb(99, 99, 6);
+    border-radius: 7px;
+
+}
+
+span[class="status"], span[class^="rate"]{
+    height:auto;
+    width: auto;
+    padding: 15px;
+}
+span[class^="rate"] > span{
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: auto;
+    height:auto;
+    width:auto;
+    padding:auto;
+    background-color: grey;
+
+}
+
+body{
+    font-family: sans-serif;
+}
+
+span[class~="one"] > :first-child {
+  background: linear-gradient(brown 75%,rgb(107, 65, 65))
+}
+span[class~="two"] > :nth-child(-n+2) {
+  background: linear-gradient(beige 75%,rgb(237, 231, 231))
+}
+span[class~="three"] span {
+  background: linear-gradient(orange 75%,rgb(231, 110, 45))
+}
